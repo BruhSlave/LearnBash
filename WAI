@@ -1,0 +1,5 @@
+#!/bin/bash
+echo -n "The current directory: " 
+pwd
+echo -n "You are: "
+whoami
