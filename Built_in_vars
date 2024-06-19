@@ -1,0 +1,9 @@
+#!/bin/bash
+#Display user home
+echo "Home for the current user is: $HOME"
+
+grade=5
+person="Pasha"
+echo "$person is a cool guy, he's in grade $grade"
+
+echo "Current dir is: $(pwd)"
