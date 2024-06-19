@@ -1,0 +1,10 @@
+#!/bin/bash
+mydir=/home/iezekiil
+if [ -d $mydir ]
+then 
+	echo "The $mydir directory exists"
+	ls -l $mydir
+else
+	echo "The $mydir does not exist"
+fi
+
