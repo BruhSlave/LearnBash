@@ -1,0 +1,3 @@
+#!/bin/bash
+# "Error" if delete one letter in "pwd"
+pwd && echo "It works" || echo "Error"
