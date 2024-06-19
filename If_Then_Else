@@ -1,0 +1,3 @@
+#!/bin/bash
+user=asd
+grep $user /etc/passwd && echo "The User: $user exists" || (echo "The home directory: $(ls /home)" && echo "The user $user does not exist")
