@@ -1,0 +1,15 @@
+#!/bin/bash
+var1=$((5+5))
+echo $var1
+
+declare -i Num Num2
+Num=20+12
+echo "$Num"
+
+Num2=100
+if [ $Num2 -gt 50 ]
+then 
+	echo "The value $Num2 is greater than 50"
+else
+	echo "The value $Num2 is not greater than 50"
+fi
