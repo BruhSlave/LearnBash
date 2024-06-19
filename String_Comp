@@ -1,0 +1,18 @@
+#!/bin/bash
+user="iezekiil"
+if [ $user = $USER ] 
+then 
+	echo "The user $user is the current logged in user"
+fi
+
+
+string1=text
+string2="Another text"
+
+#Обратная косая черта для, чтобы указать знак >, а не перенаправление вывода
+if [ $string1 \> "$string2" ] #Кавычки для $string2 обязательны 
+then
+	echo "The $string1 is longer than $string2"
+else
+	echo "The $string1 is less than $string2"
+fi
