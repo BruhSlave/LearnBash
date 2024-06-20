@@ -1,0 +1,13 @@
+#!/bin/bash
+
+for var in first second third fourth fifth 
+do
+	echo The $var item
+done
+echo -----------------
+for var1 in first "The Second" "The Third" "Yes"
+do
+	echo "This is: $var1"
+done
+
+
