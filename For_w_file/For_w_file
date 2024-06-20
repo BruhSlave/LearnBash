@@ -1,0 +1,6 @@
+#!/bin/bash
+file="TestFile"
+for var in $(cat $file)
+do
+	echo " $var"
+done
