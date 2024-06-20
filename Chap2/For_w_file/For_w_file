@@ -1,0 +1,8 @@
+#!/bin/bash
+file="TestFile"
+# Изменение переменной среды для избегания пробелов и табуляций
+
+for var in $(cat $file)
+do
+	echo " $var"
+done
